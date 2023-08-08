@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+}
+
+img {
+    width: 40%;
+}
+
+button {
+    padding: 0 50px;
+    margin: 0 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.left, .right{
+    margin: 50px;
+    width: 800px;
+    height: 800px;
+}
+
+
+
+#leftimg, #rightimg{
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+#rightbtn, #leftbtn{
+    border: 5px solid #7289da;
+    background-color: #424549;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+#rightbtn:hover, #leftbtn:hover{
+    background-color:white;
+    color: #7289da;
+    transition: all 1s ease-out;
+}
+
+h1{
+    border: 5px solid #7289da;
+    background-color: #424549;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
